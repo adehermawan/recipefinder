@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+RecipeFinder - the second redux application in this course! With this course, we learned one way that we can use redux to handle information received from an API. Let’s overview some of the new things we went over in this chapter though.
 
-In the project directory, you can run:
+Quickly though, remember that these section overviews also double as opportunities for you to take coding breaks. So please feel free to take a break and grab a drink, snack, or meal - whatever you need to stay energized while coding and learning!
 
-### `npm start`
+ As a brief overview, here are some of the main concepts we covered in RecipeFinder:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Web Requests allow us to fetch information from APIs in order to dynamically grab data from the web.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Ternary Expressions are particularly helpful for adding conditional rendering logic to our components based on state or props data.
 
-### `npm test`
+The React-router-dom library allows us to create routes within our application to map specific components to urls within our app.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This includes the BrowserRouter, Switch, Route, and Link components.
 
-### `npm run build`
+ Also, if you want to extend this application, here’s a couple challenges to continue coding RecipeFinder:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Change the switching of favorited items to be saved in the redux store, so that even on reloads of the same recipe, you can’t re-favorite them.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Delete favorite items from your favorite recipes list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Have a banner message appear every item an item is favorited.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Add localStorage through this library: https://github.com/15Dkatz/sfcookies, to store favorite items so that they are saved on a reload of the application.
